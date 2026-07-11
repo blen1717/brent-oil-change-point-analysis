@@ -36,7 +36,7 @@ The Bayesian change point model detected a structural break in oil prices around
 - Market adjustments to OPEC production decisions
 
 ## Author
-[Your Name]
+Blen Assefa
 
 ## Date
 July 11, 2026
