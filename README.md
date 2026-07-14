@@ -14,6 +14,7 @@ This project analyzes how major geopolitical and economic events affect Brent oi
 - Price Before: $74.91 per barrel
 - Price After: $77.20 per barrel
 - Price Change: +$2.29 (+3.1%)
+- Multiple Change Points: 8 significant structural breaks identified
 
 ## How to Run
 1. Clone this repository
@@ -28,6 +29,7 @@ This project analyzes how major geopolitical and economic events affect Brent oi
 - Pandas, NumPy for data manipulation
 - Matplotlib, Seaborn for visualization
 - Statsmodels for stationarity testing
+- Ruptures for multiple change point detection
 
 ## Results
 The Bayesian change point model detected a structural break in oil prices around August 30, 2018. This period coincided with:
@@ -39,7 +41,7 @@ The Bayesian change point model detected a structural break in oil prices around
 Blen Assefa
 
 ## Date
-July 11, 2026
+July 14, 2026
 
 ## License
 MIT
