@@ -1,36 +1,9 @@
-
-# Python
-pycache/
+__pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
 venv/
-ENV/
 .venv/
-*.egg-info/
-dist/
-build/
-
-# Jupyter Notebooks
 .ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Data files (if large)
-*.csv
-!events.csv
-*.xlsx
-
-# IDE
+.DS_Store
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Colab
 sample_data/
