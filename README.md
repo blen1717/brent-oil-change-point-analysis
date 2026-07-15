@@ -16,6 +16,21 @@ This project analyzes how major geopolitical and economic events affect Brent oi
 - Price Change: +$2.29 (+3.1%)
 - Multiple Change Points: 8 significant structural breaks identified
 
+## Interactive Dashboard
+An interactive dashboard is included to explore the analysis results:
+
+Features:
+- Price history chart with change points
+- Log returns (volatility) chart
+- Price distribution by decade
+- Top 5 events by price impact
+- Complete list of detected change points
+
+How to Open:
+1. Download Brent_Oil_Dashboard_Final.html
+2. Double-click to open in your browser
+3. No internet connection needed!
+
 ## How to Run
 1. Clone this repository
 2. Install dependencies: pip install -r requirements.txt
@@ -30,6 +45,7 @@ This project analyzes how major geopolitical and economic events affect Brent oi
 - Matplotlib, Seaborn for visualization
 - Statsmodels for stationarity testing
 - Ruptures for multiple change point detection
+- Flask for API backend
 
 ## Results
 The Bayesian change point model detected a structural break in oil prices around August 30, 2018. This period coincided with:
@@ -41,7 +57,7 @@ The Bayesian change point model detected a structural break in oil prices around
 Blen Assefa
 
 ## Date
-July 14, 2026
+July 16, 2026
 
 ## License
 MIT
